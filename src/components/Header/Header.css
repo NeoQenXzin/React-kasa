@@ -28,7 +28,7 @@
  text-decoration: underline;
 }
 
-@media all and (max-device-width: 480px)
+@media all and (max-device-width: 580px)
 {
     .header img {
         width: 100px ;

@@ -1,0 +1,28 @@
+.footer {
+    height: 209px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    background-color: #000;
+    color: #FFF;
+}
+.footer .logo {
+    width: 122px;
+    margin-bottom: 30px;
+}
+.footer .copyright {
+    max-width: 513px;
+}
+
+@media all and (max-device-width: 480px)
+{
+    
+    .footer .copyright {
+        max-width: 213px;
+    }
+    
+}
