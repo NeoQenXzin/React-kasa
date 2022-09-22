@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.header img {
+    width: 210px ;
+    object-fit: contain;
+}
+
+.header li{
+ display: inline-block;
+ font-family: Montserrat, sans-serif;
+ font-weight: 500;
+ font-size: 24px;
+ color: #FF6060;
+}
+.header li a{
+ padding-left: 50px;
+ font-family: Montserrat, sans-serif;
+ font-weight: 500;
+ font-size: 24px;
+ color: #FF6060;
+ text-decoration: none;
+}
+.header li a:hover{
+ text-decoration: underline;
+}
+
+@media all and (max-device-width: 480px)
+{
+    .header img {
+        width: 100px ;
+        object-fit: contain;
+    }
+    
+    .header li{
+ text-transform: uppercase;
+    }
+    .header li a{
+     padding-left: 15px;
+     font-size: 12px;
+    }
+}
