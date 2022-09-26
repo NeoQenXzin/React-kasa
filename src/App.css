@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 *, ::after, ::before {
   box-sizing: border-box;
   margin: 0;
@@ -5,8 +7,19 @@
 }
 
 body {
-  margin: 20px;
+  margin: 20px 100px;
+  min-height: 100vh ;
+  font-family: 'Montserrat', sans-serif;
 }
 .app {
   min-height: 100vh;
+}
+
+@media all and (max-device-width: 580px)
+{
+    
+  body {
+    margin: 20px 20px;
+  }
+    
 }

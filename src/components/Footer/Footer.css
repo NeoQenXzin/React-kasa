@@ -7,8 +7,10 @@
     flex-direction: column;
     position: absolute;
     bottom: 0;
+    left: 0;
     background-color: #000;
     color: #FFF;
+   
 }
 .footer .logo {
     width: 122px;
