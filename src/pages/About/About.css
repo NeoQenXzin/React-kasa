@@ -1,0 +1,88 @@
+.about {
+  min-height: 70vh;
+}
+
+.background-about {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 223px;
+  background: url("./Background-about.png"), rgba(0, 0, 0, 0.305);
+  background-blend-mode: darken, luminosity;
+  border-radius: 25px;
+  background-size: cover;
+}
+
+.valeurs {
+  /* height: 90vh; */
+}
+.valeurs .close {
+  display: none;
+}
+.valeurs .open {
+  display: block;
+}
+.valeurs li {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 55px;
+}
+.valeurs h2 {
+  background: #ff6060;
+  border-radius: 5px;
+  height: 47px;
+  display: flex;
+  margin-bottom: 31px;
+  align-items: center;
+  position: relative;
+  width: 90%;
+  color: #fff;
+  position: relative;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  padding-left: 18px;
+  margin: auto;
+}
+.valeurs h2 span {
+  position: absolute;
+  right: 15px;
+  width: 25px;
+  height: 25px;
+  background: url("./Vector.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.valeurs li .open {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ff6060;
+  width: 85%;
+  text-align: left;
+  margin: auto;
+  margin-top: 27px;
+}
+
+@media all and (max-device-width: 580px) {
+  .background-about {
+    margin: 20px 0 0 0px;
+    height: 111px;
+    border-radius: 10px;
+    margin-bottom: 19px;
+  }
+  .valeurs h2 {
+    font-size: 13px;
+    width: 100%;
+  }
+  .valeurs li .open {
+    font-size: 12px;
+    margin-bottom: 50px;
+    width: 90%;
+    margin-top: 17px;
+  }
+}
