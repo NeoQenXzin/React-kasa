@@ -1,75 +1,71 @@
 .gallery-accueil {
-    width: 100%;
-    min-height: 500px;
-    height: auto;
-    background: #f7f7f7;
-    border-radius: 25px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 60px;
-    margin-top: 50px;
-    padding: 56px 50px;
-    position: relative;
+  width: 100%;
+  min-height: 500px;
+  height: auto;
+  background: #f7f7f7;
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+  margin-top: 50px;
+  padding: 56px 50px;
+  position: relative;
 }
 .gallery-accueil a {
-    margin: auto;
-    width: 100%;
-    height: 340px;
-    transition: all .2s ease-in-out;
-    border-radius: 10px;
+  margin: auto;
+  width: 100%;
+  height: 340px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 10px;
 }
-.gallery-accueil a:hover{
-    filter: brightness(130%);
-    box-shadow: 5px 5px 25px #555;
+.gallery-accueil a:hover {
+  filter: brightness(130%);
+  box-shadow: 5px 5px 25px #555;
 }
-.annonce{
-    position: relative;
+.annonce {
+  position: relative;
 }
 
 .annonce img {
-    width: 100%;
-    height: 340px;
-    object-fit: cover;
-    border-radius: 10px;
-    z-index: 1;
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 10px;
+  z-index: 1;
 }
 .annonce h2 {
-    z-index: 9;
-    position: absolute;
-left: 5.88%;
-right: 5.88%;
-top: 78.82%;
-bottom: 5.88%;
+  z-index: 9;
+  position: absolute;
+  left: 5.88%;
+  right: 5.88%;
+  top: 78.82%;
+  bottom: 5.88%;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 142.6%;
-/* or 26px */
-display: flex;
-align-items: flex-end;
-color: #FFFFFF;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  /* or 26px */
+  display: flex;
+  align-items: flex-end;
+  color: #ffffff;
 }
 
-@media all and (max-device-width: 580px)
-{
-    .gallery-accueil {
-        width: 100%;
-        min-height: 500px;
-        height: auto;
-        background: #e5e5e5;
-        border-radius: 25px;
-       
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 20px;
-        margin-top: 0px;
-        padding: 22px 50px;
-    }
-    
+@media all and (max-device-width: 580px) {
+  .gallery-accueil {
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+    background: #e5e5e5;
+    border-radius: 25px;
 
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 0px;
+    padding: 22px 50px;
+  }
 }
