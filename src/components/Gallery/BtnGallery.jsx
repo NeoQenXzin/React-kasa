@@ -12,7 +12,6 @@ function BtnGallery(props) {
       <img
         src={props.direction === "next" ? rightArrow : leftArrow}
         alt="flêche gauche ou fleche droite"
-        className={props.nbrePhoto === 1 ? "hide" : "show"}
       />
     </button>
   );

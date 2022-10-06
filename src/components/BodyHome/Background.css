@@ -23,6 +23,11 @@
   text-shadow: 1px 0 0px #fff;
 }
 
+@media all and (min-width: 581px) and (max-width: 980px) {
+  body {
+  }
+}
+
 @media all and (max-device-width: 580px) {
   .background-accueil {
     margin: 20px 0 0 0px;
