@@ -43,6 +43,9 @@
   height: 80px;
   left: 20px;
 }
+.hide {
+  display: none;
+}
 .index-slide {
   position: absolute;
   bottom: 25px;

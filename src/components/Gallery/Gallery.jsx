@@ -8,7 +8,7 @@ export default function Gallery(photos, title) {
     inProgress: false,
   });
   const nbrePhoto = photos.photos.length;
-  // console.log(nbrePhoto);
+  console.log(nbrePhoto);
   const nextSlide = () => {
     if (galleryAnim.index !== photos.photos.length && !galleryAnim.inProgress) {
       setGalleryAnim({ index: galleryAnim.index + 1, inProgress: true });
@@ -58,8 +58,10 @@ export default function Gallery(photos, title) {
           </div>
         );
       })}
-      <BtnGallery moveSlide={nextSlide} direction={"next"} />
-      <BtnGallery moveSlide={prevSlide} direction={"prev"} />
+      <div className={nbrePhoto === 1 && "btn-gallery hide"}>
+        <BtnGallery moveSlide={nextSlide} direction={"next"} />
+        <BtnGallery moveSlide={prevSlide} direction={"prev"} />
+      </div>
     </div>
   );
 }
