@@ -58,7 +58,7 @@ export default function Gallery(photos, title) {
           </div>
         );
       })}
-      <div className={nbrePhoto === 1 && "btn-gallery hide"}>
+      <div className={nbrePhoto === 1 ? "btn-gallery hide" : ""}>
         <BtnGallery moveSlide={nextSlide} direction={"next"} />
         <BtnGallery moveSlide={prevSlide} direction={"prev"} />
       </div>
