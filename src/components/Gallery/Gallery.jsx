@@ -8,7 +8,7 @@ export default function Gallery(photos, title) {
     inProgress: false,
   });
   const nbrePhoto = photos.photos.length;
-  console.log(nbrePhoto);
+
   const nextSlide = () => {
     if (galleryAnim.index !== photos.photos.length && !galleryAnim.inProgress) {
       setGalleryAnim({ index: galleryAnim.index + 1, inProgress: true });

@@ -115,6 +115,7 @@
   background-repeat: no-repeat;
 }
 .main li .open {
+  background: #f6f6f6;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -124,8 +125,10 @@
   padding-left: 18px;
   text-align: left;
   margin: auto;
-  margin-top: 27px;
   line-height: 142%;
+  padding-top: 27px;
+  padding-bottom: 35px;
+  border-radius: 0 0 10px 10px;
 }
 
 @media all and (min-width: 681px) and (max-width: 1278px) {

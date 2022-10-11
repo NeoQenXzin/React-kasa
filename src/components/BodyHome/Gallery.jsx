@@ -14,6 +14,7 @@ function Gallery() {
           state={annonce}
         >
           <div className="annonce">
+            <div className="overlay"></div>
             <img src={annonce.cover} alt="images annonces" />
             <h2>{annonce.title}</h2>
           </div>

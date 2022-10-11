@@ -7,10 +7,12 @@
   margin: 0;
   padding: 0;
 }
-
+header,
+main {
+  margin: 50px 100px 0 100px;
+}
 body {
   /* background: #e5e5e5; */
-  margin: 50px 100px 0 100px;
   min-height: 100vh;
   font-family: "Montserrat", sans-serif;
   position: relative;
@@ -22,13 +24,15 @@ body {
 }
 
 @media all and (min-width: 581px) and (max-width: 980px) {
-  body {
+  header,
+  main {
     margin: 50px 40px 0 40px;
   }
 }
 
 @media all and (max-device-width: 580px) {
-  body {
+  header,
+  main {
     margin: 20px 20px;
   }
 }
